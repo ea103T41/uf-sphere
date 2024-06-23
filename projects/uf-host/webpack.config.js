@@ -36,10 +36,10 @@ module.exports = {
         // },
 
         // For hosts (please adjust)
-        // remotes: {
-        //     "mfe1": "http://localhost:3000/remoteEntry.js",
-
-        // },
+        remotes: {
+            "uf-auth": "http://localhost:5001/remoteEntry.js",
+            "uf-stock-info": "http://localhost:5002/remoteEntry.js",
+        },
 
         shared: share({
           "@angular/core": { singleton: true, strictVersion: true, requiredVersion: 'auto' },
